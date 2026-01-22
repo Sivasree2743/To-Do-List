@@ -31,7 +31,7 @@ This Project helps beginners understand core Angular concepts like components, d
 - Angular CLI (latest version)
 
 ```bash
-npm install -g @angular/cli
+    npm install -g @angular/cli
 
 
 

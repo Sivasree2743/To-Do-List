@@ -1,16 +1,16 @@
 
-<h2>To-Do List</h2>
+<h2 class="bg-danger text-light">To-Do List</h2>
 
 <input [(ngModel)]="task" placeholder="enter Task">
 <button (click)="addTask()">Add</button>
 
 <ul>
    
-        @for(task of tasks;track task){
+        @for(task of tasks;track $index){
              <li>
             <span [style.textDecoration]="task.completed?'line-through':'none' " (click)="toggleTask(task)">{{task.name}}</span>
 
-            <button (click)="deleteTask(i)">Delete</button>
+            <button (click)="deleteTask($index)">Delete</button>
         </li>
         }
 </ul>

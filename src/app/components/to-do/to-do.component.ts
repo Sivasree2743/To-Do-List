@@ -7,7 +7,8 @@ import {FormsModule} from '@angular/forms'
   standalone: true,
   imports: [CommonModule,FormsModule],
   templateUrl: './to-do.component.html',
-  styleUrl: './to-do.component.css'
+  styleUrl: './to-do.component.css',
+  preserveWhitespaces:true
 })
 export class ToDoComponent {
 
