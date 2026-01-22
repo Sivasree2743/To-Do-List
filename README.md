@@ -30,7 +30,7 @@ This Project helps beginners understand core Angular concepts like components, d
 - Node.js (v18 or above recommended)
 - Angular CLI (latest version)
 
-...bash
+```bash
 npm install -g @angular/cli
 
 
