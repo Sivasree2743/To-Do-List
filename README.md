@@ -1,4 +1,42 @@
-# TodoProject
+# To-Do List Application (Angular 18)
+
+A Simple To-Do List application built using **Angular 18 standalone components**
+
+This Project helps beginners understand core Angular concepts like components, data binding, directives, and forms
+
+---
+
+## Features
+
+- Add new tasks
+- View all tasks
+- Mark tasks as completed
+- Delete tasks
+- Simple and clean UI
+
+---
+
+## Technologies Used
+
+- Angular 18
+- TypeScript
+- HTML, CSS
+- FormsModule(Template-driven forms)
+
+---
+
+## Prerequisites
+
+- Node.js (v18 or above recommended)
+- Angular CLI (latest version)
+
+...bash
+npm install -g @angular/cli
+
+
+
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.21.
 
